@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35196" started-at="2023-12-01T19:24:42Z" finished-at="2023-12-01T19:25:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35196" started-at="2023-12-01T19:24:42Z" finished-at="2023-12-01T19:25:17Z">
+      <class name="org.addactinhotel.ExecutionClass">
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeclass" is-config="true" duration-ms="13803" started-at="2023-12-01T19:24:42Z" finished-at="2023-12-01T19:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="1" started-at="2023-12-01T19:24:56Z" finished-at="2023-12-01T19:24:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginData()[pri:-1, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="loginData" duration-ms="1277" started-at="2023-12-01T19:24:56Z" finished-at="2023-12-01T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="loginPage" duration-ms="2043" started-at="2023-12-01T19:24:57Z" finished-at="2023-12-01T19:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:24:57Z" finished-at="2023-12-01T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:24:57Z" finished-at="2023-12-01T19:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="6" started-at="2023-12-01T19:24:59Z" finished-at="2023-12-01T19:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="booking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="booking" duration-ms="5355" started-at="2023-12-01T19:24:59Z" finished-at="2023-12-01T19:25:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hotel Sunshine]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Super Deluxe]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[07/09/2023]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[09/09/2023]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[2 - Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:24:59Z" finished-at="2023-12-01T19:24:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:04Z" finished-at="2023-12-01T19:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="1" started-at="2023-12-01T19:25:04Z" finished-at="2023-12-01T19:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="searchHotel()[pri:2, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="searchHotel" duration-ms="3416" started-at="2023-12-01T19:25:04Z" finished-at="2023-12-01T19:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="1" started-at="2023-12-01T19:25:08Z" finished-at="2023-12-01T19:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="1" started-at="2023-12-01T19:25:08Z" finished-at="2023-12-01T19:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="finalDataHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="finalDataHotel" duration-ms="1281" started-at="2023-12-01T19:25:08Z" data-provider="finalData" finished-at="2023-12-01T19:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nivedha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Meganathan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Coimbatore,Tamilnadu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567891234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalDataHotel -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:09Z" finished-at="2023-12-01T19:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:09Z" finished-at="2023-12-01T19:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="finalDataHotel(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="finalDataHotel" duration-ms="889" started-at="2023-12-01T19:25:09Z" data-provider="finalData" finished-at="2023-12-01T19:25:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nived]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mega]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Coimbatore,Tamilnadu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1234567891234567]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[January]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2024]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalDataHotel -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="beforeTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:10Z" finished-at="2023-12-01T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:10Z" finished-at="2023-12-01T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="confirmHotel()[pri:4, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="confirmHotel" duration-ms="7008" started-at="2023-12-01T19:25:10Z" finished-at="2023-12-01T19:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmHotel -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterClass" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:17Z" finished-at="2023-12-01T19:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:org.addactinhotel.ExecutionClass@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2023-12-01T19:25:17Z" finished-at="2023-12-01T19:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- org.addactinhotel.ExecutionClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

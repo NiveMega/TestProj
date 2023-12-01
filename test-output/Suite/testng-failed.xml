@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="checkIn" value="07/09/2023"/>
+    <parameter name="adultPer" value="2 - Two"/>
+    <parameter name="hotels" value="Hotel Sunshine"/>
+    <parameter name="childPer" value="2 - Two"/>
+    <parameter name="location" value="London"/>
+    <parameter name="noOfRoom" value="2 - Two"/>
+    <parameter name="checkOut" value="09/09/2023"/>
+    <parameter name="roomType" value="Super Deluxe"/>
+    <classes>
+      <class name="org.addactinhotel.ExecutionClass">
+        <methods>
+          <include name="booking" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.addactinhotel.ExecutionClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

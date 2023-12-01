@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name ="location" value="London"></parameter>
+  <parameter name ="hotels" value="Hotel Sunshine"></parameter>
+  <parameter name ="roomType" value="Super Deluxe"></parameter>
+  <parameter name ="noOfRoom" value="2 - Two"></parameter>
+  <parameter name ="checkIn" value="07/09/2023"></parameter>
+  <parameter name ="checkOut" value="09/09/2023"></parameter>
+  <parameter name ="adultPer" value="2 - Two"></parameter>
+  <parameter name ="childPer" value="2 - Two"></parameter>
+    <classes>
+      <class name="org.addactinhotel.ExecutionClass"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
